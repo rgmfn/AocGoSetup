@@ -11,3 +11,5 @@ cp ./.blank/** "./$1"
 echo "module github.com/rgmfn/aoc$YEAR/$1
 
 go 1.20" >> "./$1/go.mod"
+touch "./$1/test.txt"
+touch "./$1/input.txt"
